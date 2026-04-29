@@ -80,9 +80,7 @@ a {
   height: 56px;
 }
 
-.features-h,
-.team-h,
-.portfolio-h {
+.section-title {
   font:
     500 20px / 1.2 "Roboto",
     sans-serif;
@@ -90,9 +88,14 @@ a {
   color: #2e2f42;
 }
 
-.features-text,
-.team-text,
-.portfolio-text,
+.section-text {
+  font:
+    400 16px / 1.5 "Roboto",
+    sans-serif;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 .footer-text {
   font:
     400 16px / 1.5 "Roboto",
@@ -106,14 +109,17 @@ a {
   width: 1440px;
 }
 
-.team-title,
-.portfolio-title {
+.main-title {
   font:
     700 36px / 1.11 "Roboto",
     sans-serif;
   letter-spacing: 0.02em;
-  /* text-align: center; */
+  text-align: center;
   color: #2e2f42;
+}
+
+.portfolio {
+  width: 1440px;
 }
 
 .footer {
