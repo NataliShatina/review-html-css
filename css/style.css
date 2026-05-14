@@ -122,6 +122,15 @@ img {
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  ), url(../img/people-office\ 1.jpg);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-position: center center;
+  background-size: cover;
+  max-width: 1440px;
 }
 
 .hero-h {
@@ -159,6 +168,22 @@ img {
   padding-bottom: 120px;
 }
 
+.features-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+background: #f4f4fd;
+margin-bottom: 8px;
+}
+
+.features-icon {
+  margin: 0 auto;
+}
+
 .features-list {
   display: flex;
   gap: 24px;
@@ -192,6 +217,36 @@ img {
   padding-bottom: 32px;
   text-align: center;
 }
+
+.team-text {
+  margin-bottom: 8px;
+}
+
+.team-social-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-social-item .link {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.team-icon {
+  fill: #f4f4fd;
+}
+
+.team-social-item .link:hover, .team-social-item .link:focus {
+background-color: #404bbf;
+}
+
 
 /* ==============PORTFOLIO======== */
 .portfolio {
@@ -252,6 +307,15 @@ border-top: none;
   padding-bottom: 100px;
 }
 
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-main {
+  margin-right: 120px;
+}
+
 .footer-logo {
   font:
     700 18px / 1.16667 "Raleway",
@@ -274,4 +338,40 @@ border-top: none;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.footer-social
+
+.footer-social-text {
+  font: 500 16px / 1.5 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+color: #fff;
+margin-bottom: 16px;
+}
+
+.footer-social-list {
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 16px;
+width: 208px;
+height: 40px;
+}
+
+.footer-social-item .link-footer:hover, .footer-social-item .link-footer:focus
+ {
+  background-color: #31D0AA;
+}
+.link-footer {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+.footer-icon {
+  fill: #f4f4fd;
 }
